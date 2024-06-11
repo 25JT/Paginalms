@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #1b3d32;
+  background-color: #050505;
   font-family: "Poppins", sans-serif;
 }
 
@@ -27,11 +27,11 @@ body {
 }
 
 .swiper-button-next {
-    color: #DB241B;
+    color: #008cff;
 }
 
 .swiper-button-prev {
-    color: #DB241B;
+    color: #008cff;
 }
 
 .swiper-pagination-buller {
@@ -40,7 +40,7 @@ body {
 }
 
 .swiper-pagination-buller-activa {
-    background-color: #DB241B;
+    background-color: #008cff;
 }
 
 .menu {
@@ -77,12 +77,12 @@ body {
     margin: 0 10px;
     height: 40px;
     width: 40px;
-    border: 1px solid #DB241B;
+    border: 1px solid #008cff;
     border-radius: 50%;
 }
 
 .social:hover {
-    background-color: #DB241B;   
+    background-color: #1efdb7;   
 }
 
 .social img {
@@ -102,7 +102,7 @@ body {
 }
 
 .menu  .navbar ul li a:hover{
-    color: #DB241B;
+    color: #008cff;
 }
 #menu{
     display: none;
@@ -117,18 +117,33 @@ body {
 /* Finalizacion del navbar*/
 
 /*Inicio del header*/
-.header-content {
+
+.header-lms {
     margin-top: 200px;
     padding-bottom:50px;
     
+} 
+
+.sliderlms {
+    display: flex;
+    align-items: center;
+}
+.introLms-title{
+    text-transform: uppercase;
+    color: #008cff;
+}
+.txt-lms{  
+    color: #FFFFFF;
+    text-transform: initial;
 }
 
-.introLms-title{
-    color: #DB241B;
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom:50px;
 }
-.txt-lms{
-    color: #FFFFFF;
-}
+
+
 .slider {
     display: flex;
     align-items: center;
@@ -140,14 +155,14 @@ body {
 }
 .slider-txt h1 {
     font-size: 70px;
-    color: #FFFFFF;
+    color: #008cff;
     text-transform: uppercase;
     font-weight: 800;
 }
 
 .slider-txt p {
     font-size: 18px;
-    color: #A7A7A7;
+    color: #ffffff;
 }
 .botones {
     margin-bottom: 50px;
@@ -155,7 +170,7 @@ body {
 .btn-1 {
     display: inline-block;
     padding: 15px 35px;
-    border: 2px solid #DB241B;
+    border: 2px solid #008cff;
     color: #FFFFFF;
     font-weight: 800;
     letter-spacing:2px ;
@@ -164,7 +179,7 @@ body {
     border-radius: 50px;
 }
 .btn-1:hover {
-    background-color: #DB241B;
+    background-color: #008cff;
 }
 .slider-img {
     width: 50%;
@@ -212,7 +227,7 @@ body {
 }
 
 .tabs input[type = "radio"]:checked + label{
-border-bottom: 2px solid #DB241B;
+border-bottom: 2px solid #008cff;
 color: #FFFFFF;
 }
 
@@ -231,8 +246,8 @@ color: #FFFFFF;
 }
 
 .product-img {
-    width: 50%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
 .product-img h4 {
     display: inline-block;
@@ -247,8 +262,8 @@ color: #FFFFFF;
     margin-bottom: 50px;
 }
 .product-img img {
-    width: 150px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
 }
 .product-txt {
     width: 50%;
@@ -306,14 +321,14 @@ color: #FFFFFF;
 .btn-2 {
     display: inline-block;
     padding: 15px 35px;
-    background-color: #DB241B;
+    background-color: #008cff;
     color:#FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
     border-radius:50px ;
 }
 .btn-2:hover {
-background-color: #7e1a15;
+background-color: #ff5100;
 }
 
 /*HORRARIOS*/
@@ -409,6 +424,14 @@ background-color: #7e1a15;
         display: initial;
     }
 
+    .header-lms{
+        padding: 30px;
+        margin-top: 100px; 
+    }
+    .sliderlms{
+    flex-direction: column;
+    }
+    
     .header-content{
         padding: 30px;
         margin-top: 100px;
@@ -436,7 +459,7 @@ background-color: #7e1a15;
         font-size: 14px;
     }
     .slider-img{
-        width: 100%;
+        width: 1000%;
         text-align: center;
     }
     .slider-img img{
