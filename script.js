@@ -10,9 +10,13 @@ var swiper = new Swiper (".mySwiper-1",{
    navigation:{
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-   }
+   },
+   autoplay: {
+    delay: 3000, // El carrusel se moverá automáticamente cada 2 segundos (2000 milisegundos)
+    disableOnInteraction: false, // Continúa el autoplay después de la interacción del usuario
+    }
 });
-
+//segundo  carrusel
 var swiper = new Swiper (".mySwiper-2",{
     slidesPerView:3,
     spaceBetween: 20,
@@ -34,7 +38,11 @@ var swiper = new Swiper (".mySwiper-2",{
         950: {
             slidesPerView:3,
         }
-    }
+    },
+    autoplay: {
+        delay: 2500, // El carrusel se moverá automáticamente cada 2 segundos (2000 milisegundos)
+        disableOnInteraction: false, // Continúa el autoplay después de la interacción del usuario
+        },
  });
 
  let tabInputs =  document.querySeñectprAll(".tabInput");
