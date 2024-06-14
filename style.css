@@ -387,14 +387,9 @@ background-color: #ff5100;
     font-weight: 600;
     margin-bottom: 15px;
 }
-/*revisrar info horario  horario txt*/
-
-/* color del mapa .map{
-    filter: grayscale(100%) invert(92%) contrast(93%);
-} */
 
 .footer{
-    padding: 100px 0px;
+    padding: 5px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -428,7 +423,7 @@ th {
 
 td {
     color: white;
-    background-color: #333; /* Opcional: añade un fondo oscuro para mayor contraste */
+    background-color: #333; 
 }
 
 
@@ -578,6 +573,7 @@ td {
 
     .social img{
         margin: 8px 0 0 0;
+        
     }
 
     .footer{
@@ -588,6 +584,16 @@ td {
 
     .links h4 {
         margin: 25px 0px 10px 0px;
+    }
+    .video{
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tabla{
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
     }
 
 }
