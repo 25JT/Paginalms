@@ -134,6 +134,7 @@ body {
 }
 .txt-lms{  
     color: #FFFFFF;
+    text-align: justify;
     text-transform: initial;
 }
 
@@ -151,10 +152,12 @@ body {
 
 .slider-txt {
     margin-left: 85px;
+    text-align: justify;
     width: 50%;
 }
 .slider-txt h1 {
     font-size: 70px;
+    
     color: #008cff;
     text-transform: uppercase;
     font-weight: 800;
@@ -296,11 +299,11 @@ color: #FFFFFF;
     align-items: center;
 }
 .info-img {
-    width: 50%;
+    width: 50%;text-align: justify;
 }
 .info-img img {
-    width: 500px;
-    height: 250px;
+    width: 550px;
+    height: 100%;
 }
 
 .info-txt {
@@ -308,6 +311,13 @@ color: #FFFFFF;
 }
 .info-txt h2 {
     font-size: 76px;
+    color: #008cff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.info-txt h4 {
+    font-size: 20px;
     color: #FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
@@ -317,6 +327,7 @@ color: #FFFFFF;
     font-size: 18px;
     color: #A7A7A7;
     margin-bottom: 50px;
+    text-align: justify;
 }
 .btn-2 {
     display: inline-block;
@@ -338,7 +349,7 @@ background-color: #ff5100;
     background-color: #0d0d0d;
 }
 .horario-info h2 {
-    font-size: 75px;
+    font-size: 60px;
     color: #FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
@@ -353,10 +364,22 @@ background-color: #ff5100;
 .txt {
     color: #FFFFFF;
 }
+
 .txt h4 {
     font-size: 18px;
     color: #A7A7A7;
+    text-transform: uppercase;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.txt-X h4  {
+    font-size: 30px;
+    color: #008cff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 1%;
 }
 .txt p {
     font-size:  18px;
@@ -380,12 +403,32 @@ background-color: #ff5100;
     color:#FFFFFF;
     text-transform: uppercase;
     margin-bottom: 25px;
+    text-align: center;
 }
 .links ul li a {
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 5px ;
     display: inline-block;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #ffffff;
+}
+
+td {
+    color: white;
+    background-color: #333; /* Opcional: añade un fondo oscuro para mayor contraste */
 }
 
 

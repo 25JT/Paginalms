@@ -1,10 +1,11 @@
+//primer carrusel
 var swiper = new Swiper (".mySwiper-1",{
    slidesPerView:1,
-   spaceBetween: 30,
+   spaceBetween: 20,
    loop:true,
    pagination:{
     el:".swiper-pagination",
-    clickable:true,
+    clickable:false,
    } ,
    navigation:{
         nextEl: ".swiper-button-next",
@@ -45,3 +46,4 @@ tabInputs.forEach(function(input){
         thisSwiper.swiper.update();
     })
 });
+
