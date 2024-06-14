@@ -430,6 +430,27 @@ h6{
 }
 
 
+.paypal-button {
+
+    
+    color: #008cff; /* Color del texto azul de PayPal */
+    border: 2px solid #008cff; /* Borde azul */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que el padding funcione correctamente */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+.paypal-button:hover {
+    background-color: #0070ba; /* Fondo azul al pasar el mouse */
+    color: white; /* Texto blanco al pasar el mouse */
+}
+
+
 /*responsive*/
 @media(max-width: 991px){
     .menu{
